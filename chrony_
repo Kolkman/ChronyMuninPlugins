@@ -3,7 +3,8 @@
 
 =head1 NAME
 
-chrony_ - Wildcard plugin to monitor chrony statistics for a particular remote NTP source
+chrony_ - Wildcard plugin to monitor chrony statistics for a
+particular remote NTP source
 
 =head1 CONFIGURATION
 
@@ -44,15 +45,16 @@ Based on the similar ntp_ wildcard plugin of which the original author
 unknown and which was rewritten by Kenyon Ralph
 <kenyon@kenyonralph.com>.
 
-Adopted for chronyc and modified by Olaf Kolkman <kolkman@isoc.org>
+Adopted for chronyc and modified by Olaf Kolkman. 
+(https://github.com/Kolkman)
 
 =head1 LICENSE
 
-Same as munin.
+GPL2
 
 =head1 VERSION
 
- VERSION 0.1 - Initial release Sat 24 Oct 2020 01:26:56 
+ VERSION 0.1.1 - 2 Nov 2020
 
 
 =head1 MAGIC MARKERS
@@ -279,3 +281,20 @@ EOT
 exit 0;
 
 # vim:syntax=perl
+
+#  (c) 2020 Olaf Kolkman
+#  (c) ???? Kenyon Ralph
+#  (c) ???? ????????????
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; version 2 dated June, 1991.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License along
+#  with this program; if not, write to the Free Software Foundation, Inc.,
+#  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
